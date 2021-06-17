@@ -63,3 +63,6 @@ node_modules/
 
 # Backend Local Storage
 scratch/
+
+# target from Foodies-Mutual-Aid project
+Foodies-Mutual-Aid/target/
