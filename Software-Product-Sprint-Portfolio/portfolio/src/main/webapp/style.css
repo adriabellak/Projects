@@ -1,0 +1,175 @@
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+  padding: 125px 0px;
+}
+
+#menu-bar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#menu-bar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 32px;
+  text-decoration: none;
+  font-size: 17px;
+  transition-duration: 0.2s;
+  font-size: 25px;
+}
+
+#menu-bar a:hover {
+  background: rgb(51, 51, 51);
+  color: white;
+}
+
+p {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+#me {
+  height: 450px;
+  border-radius: 50%;
+  padding-top: 15px;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#intro-text {
+  padding-right: 150px;
+}
+
+#fact-container {
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(51, 51, 51);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+}
+
+#kala-random img{
+  float: left;
+  width:  450px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.album-covers {
+  display: flex;
+  justify-content: center;
+}
+
+.album-covers img {
+  width: 300px;
+  height: 300px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  padding: 25px 40px;
+}
+
+.album-covers img:hover {
+  width: 310px;
+  height: 310px;
+}
+
+#servlet-text-container {
+  font-style: italic;
+}
+
+#drawings {
+  display: flex;
+  justify-content: space-between;
+}
+
+#drawings img{
+  width: 300px;
+  padding: 20px;
+}
+
+#gallery-text {
+  text-align: center;
+  justify-items: center;
+}
+
+#vsco {
+  width: 120px;
+  height: 120px;
+}
+
+#gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+#gallery div {
+  width: 400px;
+}
+
+.container {
+  justify-items: center;
+}
+
+.container img{
+  width: 400px;
+  padding: 25px 0px;
+}
+
+dt {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+dd {
+  font-size: 28px;
+}
+
+#contact img{
+  width: 200px;
+  padding: 30px;
+}

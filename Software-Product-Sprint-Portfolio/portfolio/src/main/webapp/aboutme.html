@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Adriana's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+    <script src="script.js"></script>
+  </head>
+  <body style="font-family: 'Alegreya Sans';" onload="randomizeImage()">
+    <div id="menu-bar">
+      <a href="index.html">Home</a>
+      <a href="aboutme.html">More about me</a>
+      <a href="gallery.html">Photo gallery</a>
+      <a href="myprojects.html">My projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div id="content">
+      <div id="introduction">
+        <div id="intro-text">
+          <h2>More about me</h2>
+          <h3>Where I'm from</h3>
+          <p>I am Mexican. I was born in Monterrey, but I moved to Puebla when I was 3 years old, so I consider it to be my hometown.</p>
+          <h3>What I love</h3>
+          <p>I love <b>my family and my friends</b> above everything else, and spending time with them is very important for me.</p>
+          
+          <p>This obviously includes <b>my dog.</b> We named her Kala after Tarzan's mom. Press the button to see random pictures of her! </p>
+
+          <button class="button" onclick="randomizeImage()">Change picture</button>
+
+        </div>
+        <div id="kala-random"></div>
+      </div>
+        <p>
+          I also enjoy meeting new people and going to new places. That's why I really love <b>traveling and learning languages.</b> So far, I speak Spanish and English fluently, I speak a little bit of French and I'm getting started with German. I'm also an English tutor for high school students.
+        </p>
+        <p>
+          I love <b>music!</b> I like listening to it and playing instruments too. I've played the piano since I was around 10 years old and I'm learning how to play the guitar. These are some of my favorite albums, click the images to open them on Spotify.
+        </p>
+        <div class="album-covers">
+          <a href="https://open.spotify.com/album/0RHX9XECH8IVI3LNgWDpmQ?si=uX6UGds_QOuHCZZlQKtbig" target="_blank">
+            <img title="A Rush of Blood to the Head - Coldplay" src="images/album-covers/coldplay-1.jpg">
+          </a>
+
+          <a href="https://open.spotify.com/album/2xkZV2Hl1Omi8rk2D7t5lN?si=1L6xGYCrSf6WOdihF4CuHw" target="_blank">
+            <img title="The New Abnormal - The Strokes" src="images/album-covers/the-strokes-1.png">
+          </a>
+
+          <a href="https://open.spotify.com/album/2ix8vWvvSp2Yo7rKMiWpkg?si=lAwOR_JESV-plzqzshxefA" target="_blank">
+            <img title="A Moon Shaped Pool - Radiohead" src="images/album-covers/radiohead-1.jpg">
+          </a>
+        </div>
+        <div class="album-covers">
+          <a href="https://open.spotify.com/album/79dL7FLiJFOO0EoehUHQBv?si=Tz9slRb_SniNGiKr2ZsGJQ" target="_blank">
+            <img title="Currents - Tame Impala" src="images/album-covers/tame-impala-1.png">
+          </a>
+
+          <a href="https://open.spotify.com/album/0tzfI6NFJqcJkWb23R3lRZ?si=indM59QWR5eFbo9mJz2n8g" target="_blank">
+            <img title="OK Computer OKNOTOK 1997 2017= Radiohead" src="images/album-covers/radiohead-2.png">
+          </a>          
+
+          <a href="https://open.spotify.com/album/33ZqJmmqFE8Z7Ak1Lxbnfb?si=Rt7W4I5TSx6GO2BUk1LONw" target="_blank">
+            <img title="The 1975 - The 1975" src="images/album-covers/the-1975-1.png">
+          </a>
+        </div>
+
+        <p>You can also click this button to get some song recommendations.</p>
+        <div>
+          <button class="button" onclick="randomSongRecommendation()">Get song recommendation</button>
+          <p id="servlet-text-container"></p>
+        </div>
+
+        <p> I am not a pro, but I really enjoy <b>taking pictures</b>. I like to photograph things that I find pretty, but I also like to photograph whatever I happen to be seeing when I'm having a happy or special moment. You can visit my photo gallery if you want to see some of my pictures.</p>
+        <a href="gallery.html">
+          <button class="button">Go to gallery</button>            
+        </a>
+        <p>
+          I also like <b>drawing</b>, but I don't do it very often. Here are some pictures of my favorite drawings.
+        </p>
+        <div id="drawings">
+          <img src="images/drawings/drawing-1.JPG">
+          <img style="width: 500px;" src="images/drawings/drawing-2.jpg">
+          <img src="images/drawings/drawing-3.jpg">
+        </div>
+    </div>
+  </body>
+</html>

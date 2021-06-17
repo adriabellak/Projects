@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Adriana's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+    <script src="script.js"></script>
+  </head>
+  <body style="font-family: 'Alegreya Sans';">
+    <div id="menu-bar">
+      <a href="index.html">Home</a>
+      <a href="aboutme.html">More about me</a>
+      <a href="gallery.html">Photo gallery</a>
+      <a href="myprojects.html">My projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div id="content">
+      <div id="contact">
+        <h2>Contact me</h2>
+        <form action="/form-handler" method="POST" target="_blank">
+          <p>You can submit a message for me right here:</p>
+          <input type="text" id="name-input" name="name-input" placeholder="Your name..." autocomplete="on"><br><br>
+          <textarea name="text-input" placeholder="Your message..." cols="50"></textarea>
+          <br/>
+          <input type="submit" />
+        </form>
+        <p>Email address: <a href="mailto:adriabellak@gmail.com">adriabellak@gmail.com</a></p>
+        <p>Github and LinkedIn profiles:</p>
+        <a href="https://github.com/adriabellak" target="_blank">
+          <img src="images/github.png">
+        </a>
+        <a href="https://www.linkedin.com/in/adriana-abella-kuri-3045231b9/" target="_blank">
+          <img src="images/linkedin.png">
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

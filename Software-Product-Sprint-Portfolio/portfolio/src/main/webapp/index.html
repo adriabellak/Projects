@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Adriana's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+    <script src="script.js"></script>
+  </head>
+  <body style="font-family: 'Alegreya Sans';">
+    <div id="menu-bar">
+      <a href="index.html">Home</a>
+      <a href="aboutme.html">More about me</a>
+      <a href="gallery.html">Photo gallery</a>
+      <a href="myprojects.html">My projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div id="content">
+      <div id="introduction">
+        <div id="intro-text">
+          <p>
+            Hey, there! My name is <br><span style="font-size: 75px;"><b>Adriana Abella Kuri.</b></span>
+          </p>
+          <p>
+            I'm a second-year CS student at Tecnológico de Monterrey, Campus Santa Fe. <b>Welcome to my portfolio!</b> Feel free to look around to get to know me a little bit better.
+          </p>
+          <p>
+            If that feels like too much work though, you can just press this button as many times as you want to get random facts about me.
+          </p>
+        </div>
+        <img id="me" src="images/me_sq.jpg" alt="Picture of me" title="That's me!">
+      </div>
+      <button class="button" onclick="addRandomGreeting()">Get your free random fact</button>
+      <p id="fact-container"></p>
+    </div>
+  </body>
+</html>
