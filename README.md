@@ -7,7 +7,7 @@ This is a personal project created during my participation in Google's SPS Progr
 URL: https://aabellakuri-sps-spring21.uc.r.appspot.com/index.html
 
 ## Foodies Mutual Aid
-This is a team project created during my participation in Google's SPS Program in spring of 2021. It's a website dedicated to help people find food, allowing them to filter the information by city and send their own submissions
+This is a team project created during my participation in Google's SPS Program in spring of 2021. It's a website dedicated to help people find food, allowing them to filter the information by city and send their own submissions. <br>
 URL: http://spring21-sps-31.uc.r.appspot.com/
 
 ## CSV Database Query
