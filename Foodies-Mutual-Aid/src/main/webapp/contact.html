@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<meta http-equiv="pragma" content="no-cache" />
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Foodies Mutual Aid</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="index.html">Home Page</a>
+            <a href="cities.html">Cities</a>
+            <a href="food.html">Find Food</a>
+            <a href="submit.html">Submit Food</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div id="content">
+            <h2>Contact</h2>
+            <form action="/form-handler" method="POST" onSubmit="showAlert('Thank you for your message!');">
+                <p>Please feel free to send us a message:</p>
+                <input type="text" id="name-input" name="name-input" placeholder="Name" autocomplete="on"><br><br>
+                <textarea name="text-input" placeholder="Message" cols="50"></textarea>
+                <br/><br>
+                <input class="button" type="submit" />
+            </form>
+            <p>Or send us an email:</p>
+            <p> Adriana: 
+                <a href="mailto:aabellakuri@sps-program.com">
+                    aabellakuri@sps-program.com
+                </a>
+            </p>
+            <p> Nathaniel: 
+                <a href="mailto:nmartinez@sps-program.com">
+                    nmartinez@sps-program.com
+                </a>
+            </p>
+            <p> Santiago: 
+                <a href="mailto:sbukowitz@sps-program.com">
+                    sbukowitz@sps-program.com
+                </a>
+            </p>
+        </div>
+    </body>
+</html>

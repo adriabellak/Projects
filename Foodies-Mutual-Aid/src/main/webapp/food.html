@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Foodies Mutual Aid</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="navbar">
+            <a href="index.html">Home Page</a>
+            <a href="cities.html">Cities</a>
+            <a href="food.html">Find Food</a>
+            <a href="submit.html">Submit Food</a>
+            <a href="contact.html">Contact Us</a>
+    </div>
+    <div id="content">
+        <div class="grd food">
+            <div id="g1">
+                <img src="images/foodplate.jpg" style="height: 100%; width: 100%;">
+            </div>
+            <div id="g2">
+                <h2>Where to find food</h2>
+                <p>Choose a city to see the available options for you there.</p>
+                <select class="button" name="city-input" id="city-input" onchange="loadFoodEntries(this.value)">
+                    <option value="" selected disabled hidden>Choose here</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Houston">Houston</option>
+                    <option value="LosAngeles">Los Angeles</option>
+                    <option value="NewYorkCity">New York City</option>
+                </select><br><br>
+                <div id="city-container"></div>
+                <ul id="food-entries"></ul>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
