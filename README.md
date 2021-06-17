@@ -2,7 +2,7 @@
 ## Circuit Sandbox Videogame
 This is an educational videogame that teaches players how circuits and logic gates work, and allows them to create their own circuits as well. Inside this folder you will find another README.md file that explains how to run the project locally.
 
-## Personal Portfolio
+## Software-Product-Sprint-Portfolio
 This is a personal project created during my participation in Google's SPS Program in spring of 2021. It's my own personal portfolio that includes information about me, the things I like and my projects. It allows users to send me a message and to interact with me by both submitting and receiving song recommendations. <br>
 URL: https://aabellakuri-sps-spring21.uc.r.appspot.com/index.html
 
