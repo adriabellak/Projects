@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Circuit Sandbox</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet'>
+</head>
+
+<body onload="getUsersData()">
+    <div id="nav-bar">
+        <a href="index.html" id="boton-inicio">Circuit Sandbox</a>
+        <a href="juego.html" id="boton-juego">Juega</a>
+        <a href="steam.html" id="boton-steam">STEAM</a>
+        <a href="aprende.html" id="boton-aprende">Aprende</a>
+        <a href="datos.html" id="boton-datos">Análisis de datos</a>
+        <div id="boton-sesion"></div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <h1>Análisis de datos</h1>
+            <div id="filters">
+                <input class="filter" id="nameInput" type="text" name="name" placeholder="Buscar por nombre" onkeyup="filterTable()">
+                <select class="filter" class="seleccion-sexo" id="genderInput" name="sexo" onchange="filterTable()">
+                        <option value="">Todos los géneros</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                <input class="filter" id="ageInput" type="number" name="edad" placeholder="Todas las edades" onchange="filterTable()" onkeyup="filterTable()">
+                <input class="filter" id="levelInput" type="number" name="nivel" placeholder="Todos los niveles" onchange="filterTable()" onkeyup="filterTable()">
+                <input class="filter" id="scoreInput" type="number" name="puntaje" placeholder="Todos los puntajes" onchange="filterTable()" onkeyup="filterTable()">
+            </div>
+            <div id="table-div">
+                <table id="users-table">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Género</th>
+                        <th>Edad</th>
+                        <th>Nivel</th>
+                        <th>Puntaje</th>
+                    </tr>
+                </table>
+            </div>
+            <div id="statistics">
+                <p id="count"></p>
+                <p id="promedios-label"></p>
+                <p class="indent" id="ageAverage"></p>
+                <p class="indent" id="levelAverage"></p>
+                <p class="indent" id="scoreAverage"></p>
+                <p class="genders" id="generos-label"></p>
+                <p class="indent genders" id="fem"></p>
+                <p class="indent genders" id="masc"></p>
+                <p class="indent genders" id="other"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

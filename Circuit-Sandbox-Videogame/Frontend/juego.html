@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Circuit Sandbox</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet'>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+        UnityLoader.instantiate("unityContainer", "Build/Frontend.json");
+    </script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="nav-bar">
+        <a href="index.html" id="boton-inicio">Circuit Sandbox</a>
+        <a href="juego.html" id="boton-juego">Juega</a>
+        <a href="steam.html" id="boton-steam">STEAM</a>
+        <a href="aprende.html" id="boton-aprende">Aprende</a>
+        <a href="datos.html" id="boton-datos">Análisis de datos</a>
+        <div id="boton-sesion"></div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div id="unityContainer" style="width: 1024px; height: 768px; margin: auto;"></div>
+        </div>
+    </div>
+</body>
+
+</html>

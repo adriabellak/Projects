@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Circuit Sandbox</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="nav-bar">
+        <a href="index.html" id="boton-inicio">Circuit Sandbox</a>
+        <a href="juego.html" id="boton-juego">Juega</a>
+        <a href="steam.html" id="boton-steam">STEAM</a>
+        <a href="aprende.html" id="boton-aprende">Aprende</a>
+        <a href="datos.html" id="boton-datos">Análisis de datos</a>
+        <div id="boton-sesion"></div>
+    </div>
+    <div class="content access">
+        <div class='container login-form login'>
+            <h1>Iniciar sesión</h1>
+            <form method='POST' action='/login'>
+                <input type="email" name="email" placeholder="Email" id="mail" required>
+                <input type="password" name="pswd" id="pswd" placeholder="Password" required>
+                <br>
+                <input class="button" type="submit" onclick="saveInLocal()">
+            </form>
+        </div>
+        <div class='container login-form signup'>
+            <h1>Crear cuenta nueva</h1>
+            <form method='POST' action="/signup">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="pswd" placeholder="Password" required>
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="text" name="apellidos" placeholder="Apellidos" required>
+                <input type="number" name="edad" placeholder="Edad" required>
+                <select class="seleccion-sexo" id="sexo-selec" name="sexo" required>
+                        <option value="" selected disabled hidden>Género</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                <input class="button" type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

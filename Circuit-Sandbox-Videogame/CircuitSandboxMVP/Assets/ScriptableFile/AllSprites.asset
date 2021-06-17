@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3969333e0ba66f14688c17ef3100d203, type: 3}
+  m_Name: AllSprites
+  m_EditorClassIdentifier: 
+  wireSprites:
+  - {fileID: 1135619873572007795, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -589216064899178558, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 4696976085749793147, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -5336593409307099795, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -3160775164482794701, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -5943927278071335950, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 7475015201649808073, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 4189387642026146001, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 1254474665643228551, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -649488958301727079, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 4812066678963330071, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 5272295293754393846, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 6990436930026042135, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 2648325866680607830, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -9181047616411568619, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 2472501778469750096, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -4100596675077198693, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 772082070742088598, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 33679275912485820, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -2796061102031648489, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -1690579458836759049, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -7534622311714746268, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 7798204954898259161, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -254175078160970838, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  twoWiresSprites:
+  - {fileID: -2235080870836265277, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -1486308091978359193, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 3293084007686079783, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -2452087422589007274, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -842049702481934658, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -573284638214143283, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -766950213701363454, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 7938125778800155244, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 3248476368074893677, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 4867423552341857508, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: -707892653040451640, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  - {fileID: 7569931177649759883, guid: 4a6e4ccd1d0822149a84122e479a870e, type: 3}
+  andSprite: {fileID: 7674671219895783242, guid: 4a6e4ccd1d0822149a84122e479a870e,
+    type: 3}
+  orSprite: {fileID: -2196678508633577236, guid: 4a6e4ccd1d0822149a84122e479a870e,
+    type: 3}
+  notSprite: {fileID: -3270805815549234599, guid: 4a6e4ccd1d0822149a84122e479a870e,
+    type: 3}
+  inputOnSprite: {fileID: 7107420239422786803, guid: 4a6e4ccd1d0822149a84122e479a870e,
+    type: 3}
+  inputOffSprite: {fileID: 4572077078933004537, guid: 4a6e4ccd1d0822149a84122e479a870e,
+    type: 3}
+  outputOnSprite: {fileID: 4399496962380963169, guid: 4a6e4ccd1d0822149a84122e479a870e,
+    type: 3}
+  outputOffSprite: {fileID: -4425720471360118172, guid: 4a6e4ccd1d0822149a84122e479a870e,
+    type: 3}
+  placeholderSprite: {fileID: 8353354811649150088, guid: 4a6e4ccd1d0822149a84122e479a870e,
+    type: 3}
+  placeholderBufferSprite: {fileID: 5869338446453875821, guid: 4a6e4ccd1d0822149a84122e479a870e,
+    type: 3}
+  bufferSprite: {fileID: -2186769781495068395, guid: 4a6e4ccd1d0822149a84122e479a870e,
+    type: 3}
