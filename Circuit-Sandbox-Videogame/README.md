@@ -1,10 +1,14 @@
 # Circuit Sandbox
 
+## English
+
 The following things are needed in order to run the webpage locally:
 1. Installing node.js and npm (Node Package Manager)
 2. Installing MySQL Workbench and running the file ```Steam_DB.sql``` to create the database
 3. Installing ```express```, ```mysql```, ``` node-localstorage``` and ```ndemon``` in npm
 4. Set up the correct password in the file ```index.js``` located inside the folder ```Backend``` (this should be the same password used in MySQL Workbench)
+
+## Spanish
 
 Para correr la página de manera local se necesita:
 1. Tener node.js y el npm (Node Package Manager) instalados
