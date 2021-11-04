@@ -8,7 +8,7 @@ URL: https://sps-portfolio-331119.uc.r.appspot.com/
 
 ## Foodies Mutual Aid
 This is a team project created during my participation in Google's SPS Program in spring of 2021. It's a website dedicated to help people find food, allowing them to filter the information by city and send their own submissions. <br>
-URL: http://spring21-sps-31.uc.r.appspot.com/
+URL: https://foodies-mutual-aid.uc.r.appspot.com
 
 ## CSV Database Query
 This is a program that searches through a CSV database of over 36,000 entries using BST and graphs, in order to detect bot attacks, malicious connections or unusual activities in a network. 
