@@ -116,7 +116,7 @@
         <artifactId>appengine-maven-plugin</artifactId>
         <version>2.2.0</version>
         <configuration>
-          <projectId>spring21-sps-31</projectId>
+          <projectId>foodies-mutual-aid</projectId>
           <version>1</version>
         </configuration>
       </plugin>
