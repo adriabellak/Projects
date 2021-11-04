@@ -16,7 +16,7 @@
 
     <!-- Project-specific properties -->
     <exec.mainClass>com.google.sps.ServerMain</exec.mainClass>
-    <googleCloudProjectId>nmartinez-sps-spring21</googleCloudProjectId>
+    <googleCloudProjectId>foodies-mutual-aid</googleCloudProjectId>
   </properties>
 
   <dependencies>
