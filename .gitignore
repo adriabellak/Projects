@@ -10,6 +10,14 @@
 /Circuit-Sandbox-Videogame/CircuitSandboxMVP/[Ll]ogs/
 /Circuit-Sandbox-Videogame/CircuitSandboxMVP/[Mm]emoryCaptures/
 
+/Traffic-Simulation/TrafficModel/[Ll]ibrary/
+/Traffic-Simulation/TrafficModel/[Tt]emp/
+/Traffic-Simulation/TrafficModel/[Oo]bj/
+/Traffic-Simulation/TrafficModel/[Bb]uild/
+/Traffic-Simulation/TrafficModel/[Bb]uilds/
+/Traffic-Simulation/TrafficModel/[Ll]ogs/
+/Traffic-Simulation/TrafficModel/[Mm]emoryCaptures/
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
