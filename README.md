@@ -1,6 +1,4 @@
 # Projects
-## Circuit Sandbox Videogame
-This is an educational videogame that teaches players how circuits and logic gates work, and allows them to create their own circuits as well. Inside this folder you will find another README.md file that explains how to run the project locally.
 
 ## Software-Product-Sprint-Portfolio
 This is a personal project created during my participation in Google's SPS Program in spring of 2021. It's my own personal portfolio that includes information about me, the things I like and my projects. It allows users to send me a message and to interact with me by both submitting and receiving song recommendations. <br>
@@ -24,6 +22,9 @@ The simplest way to run it is directly with the mesa visualization module which 
 `python .\server.py`
     
 If you want to run the simulation in Unity, you need to install it and open a project from the Traffic Model folder using version 2020.3.22f1. Then, repeat the steps above but instead run the unity.py script in the end and once the server is running, open Unity, go to the BuildCity scene and run it.
+
+## Circuit Sandbox Videogame
+This is an educational videogame that teaches players how circuits and logic gates work, and allows them to create their own circuits as well. Inside this folder you will find another README.md file that explains how to run the project locally.
 
 ## Foodies Mutual Aid
 This is a team project created during my participation in Google's SPS Program in spring of 2021. It's a website dedicated to help people find food, allowing them to filter the information by city and send their own submissions. <br>
